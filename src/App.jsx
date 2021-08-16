@@ -1,15 +1,11 @@
-// import logo from './logo.svg';
 import './styles/styles.scss';
+
+import Footer from './components/FooterComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          SUP?
-        </p>
-      
-      </header>
+      <Footer/>
     </div>
   );
 }
