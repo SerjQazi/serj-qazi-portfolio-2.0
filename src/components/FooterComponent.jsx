@@ -19,7 +19,6 @@ function Footer() {
                 <FaLinkedin />
               </a>
               <p>Linkedin</p>
-              <p>test</p>
             </li>
 
             <li>
