@@ -1,0 +1,15 @@
+nav {
+  ul{
+    display: flex;
+    justify-content: center;
+    li {
+      list-style: none;
+      padding: 1.5% 1%;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 2rem;
+      }
+    }
+  }
+}

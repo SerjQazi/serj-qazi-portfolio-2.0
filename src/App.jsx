@@ -1,12 +1,25 @@
 import './styles/styles.scss';
 
-import Footer from './components/FooterComponent';
+import FooterComponent from './components/FooterComponent';
+import NavComponent from './components/NavComponent';
+import IntroComponent from './components/IntroComponent';
 
 function App() {
   return (
-    <div className="App">
-      <Footer/>
-    </div>
+    <main>
+
+      <div className="leftSide">
+        <NavComponent/>
+        <div className="intro">
+          <IntroComponent/>
+        </div>
+        <FooterComponent/>
+      </div>
+
+      <div className="rightSide">
+
+      </div>
+    </main>
   );
 }
 

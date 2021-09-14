@@ -8,7 +8,7 @@ import {
 
 import resume from '../assets/resume.pdf';
 
-function Footer() {
+function FooterComponent() {
   return (
     <footer>
       <div className="wrapper">
@@ -55,4 +55,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterComponent;
